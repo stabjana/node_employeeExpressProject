@@ -6,6 +6,24 @@ This project is a web-based employee management system built with Node.js, Expre
 
 ---
 
+## **How To run it**
+
+1. to install the dependencies run
+
+```shell
+npm install
+```
+
+2. after the installation you can run it with
+
+```shell
+node index
+```
+
+note: you have to be in the main project folder (other: you can write node in your console and drag and drop the index.js to the terminal)
+
+---
+
 ## **Main Features**
 
 1. **Home Page**  
