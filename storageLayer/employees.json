@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "firstname": "Matti",
+        "lastname": "River",
+        "department": "ict",
+        "salary": 4000
+    },
+    {
+        "id": 2,
+        "firstname": "Mary",
+        "lastname": "Rider",
+        "department": "admin",
+        "salary": 5000
+    },
+    {
+        "id": 3,
+        "firstname": "Amanda",
+        "lastname": "Jones",
+        "department": "ict",
+        "salary": 4500
+    },
+    {
+        "id": 4,
+        "firstname": "Vera",
+        "lastname": "jones",
+        "department": "transportation",
+        "salary": 4500
+    },
+    {
+        "id": 145,
+        "firstname": "Dave",
+        "lastname": "Brownie",
+        "department": "Bla",
+        "salary": 7893
+    },
+    {
+        "id": 12,
+        "firstname": "Matt",
+        "lastname": "Clarkson",
+        "department": "ict",
+        "salary": 4000
+    },
+    {
+        "id": 678,
+        "firstname": "Dave",
+        "lastname": "Brownie",
+        "department": "Web Development",
+        "salary": 7893
+    },
+    {
+        "id": 976,
+        "firstname": "Dave",
+        "lastname": "Brownie",
+        "department": "Web Development",
+        "salary": 4567
+    }
+]

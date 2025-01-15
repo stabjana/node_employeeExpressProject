@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <style>
+        input[readonly] {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>
+            <%= header %>
+        </h1>
+        <form action="<%= action %>" method="post">
+            <div>
+                <% fields.forEach(data=>{%>
+                    <p>
+                        <label for="id">
+                            <%= data.label %>:
+                        </label>
+                        <input type="text" id="<%= data.name %>" name="<%= data.name %>" size="<%= data.size %>"
+                            value="<%= data.value %>" <%=data.readonly %> >
+                    </p>
+
+                    <%})%>
+
+
+            </div>
+            <button type="submit">submit</button>
+        </form>
+        <a href="/"><button>Menu</button></a>
+    </main>
+
+</body>
+
+</html>
