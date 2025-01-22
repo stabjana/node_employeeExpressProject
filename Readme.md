@@ -8,7 +8,7 @@ This project is a web-based employee management system built with Node.js, Expre
 
 ## **How To run it**
 
-1. to install the dependencies run
+1. to install the dependencies you have to run
 
 ```shell
 npm install
